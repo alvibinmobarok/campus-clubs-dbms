@@ -1,0 +1,25 @@
+How to Run "Student Club & Event Management System"
+
+1. Start XAMPP
+   - Open the XAMPP Control Panel.
+   - Click "Start" next to **Apache** and **MySQL**.
+   - Ensure both turn green.
+
+2. Setup Database
+   - Open your browser and go to: http://localhost/phpmyadmin
+   - Click **"New"** in the left sidebar.
+   - Enter Database Name: `university_club_db`
+   - Click **"Create"**.
+   - Click the **"Import"** tab at the top.
+   - Click **"Choose File"** and select the file: 
+     `C:\xampp\htdocs\student_club\database.sql`
+   - Click **"Import"** at the bottom of the page.
+
+3. Run the Website
+   - Open your web browser.
+   - Go to: http://localhost/student_club/
+
+4. Login Credentials (Pre-loaded)
+   - Admin:    admin@uni.edu      / password123
+   - Leader:   john@club.com      / password123
+   - Student:  alice@student.edu  / password123
